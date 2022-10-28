@@ -56,7 +56,7 @@ body {
 
 
 
-
+/* Product code start */
 
 #bodys_body .container .row {
     justify-content: space-between;
@@ -86,3 +86,71 @@ body {
     line-height: 25px;
     color: #8F8F8F;
 }
+
+/* Product code end */
+
+
+/* Banner 50% width(1) start */
+#banner_product .newuserdiscount1 {
+
+    background: url(../images/13.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#banner_product .newuserdiscount2 {
+
+    background: url(../images/14.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#banner_product h4{
+    font-weight:400;
+    font-size: 24px;
+    line-height: 24px;
+}
+#banner_product  h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+#banner_product  p{
+    margin-top: 31px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+/* Banner 50% width(1) end */
+
+
+/* Banner for 8*4 start */
+#banner_product .newuserdiscount3 {
+
+    background: url(../images/20.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#banner_product .newuserdiscount4 {
+
+    background: url(../images/21.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+
+
+/* Banner for 8*4 end */
+
+/* Banner for 4*8 start */
+
+#banner_product .newuserdiscount5 {
+
+    background: url(../images/22.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#banner_product .newuserdiscount6 {
+
+    background: url(../images/23.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+/* Banner for 4*8 end */
