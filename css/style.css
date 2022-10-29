@@ -54,7 +54,127 @@ body {
 
 /* Header top end */
 
+/* menu part start */
+#main_menu .main_logo{
+    font-size: 40px;
+    font-weight: 700;
+    color:#F76262;
+}
+#main_menu ul li a{
+    color: #1C1C1C;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 18px;
+}
 
+#main_menu .nav_icon i{
+    font-size: 30px;
+    color: #1C1C1C;
+    margin-left: 10px;
+}
+#main_menu .nav_icon a{
+    position: relative;
+}
+#main_menu .nav_icon a p{
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 600;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #F76262;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* menu part end */
+
+
+/* banner part start */
+#banner{
+    padding-bottom: 100px;
+}
+#banner .cetagory i{
+    margin-right: 20px;
+}
+#banner .cetagory{
+    height: 55px;
+    background-color: #4D77DD;
+    line-height: 55px;
+    padding:0 18px;
+    border-radius: 5px;
+    color: #ffff;
+}
+.customlol{
+    height:100%;
+
+    justify-content: space-between;
+}
+#customlol2{
+    width: 190px;
+}
+#banner form{
+    height: 55px;
+}
+
+#banner form button{
+    background-color: #4D77DD;
+    color: #ffff;
+}
+#banner .banner_serch_bar{
+    margin-bottom: 12px;
+}
+#banner .banner_bg_part{
+    margin-bottom: 52px;
+}
+
+#banner .banner_bg{
+    background:url(../images/01.png)no-repeat center;
+    background-size: cover;
+    padding: 155px 40px;
+}
+
+#banner .best_features .item{
+position: relative;
+padding-left: 30px;
+}
+#banner .best_features .item img{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    
+}
+#banner .best_features{
+    padding: 25px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#banner .best_features .item::before{
+    content: '';
+position: absolute;
+top: 0;
+right: 0;
+width: 1px;
+height: 100%;
+background-color: #EBEBEB;
+}
+#banner h2{
+    font-weight: 500;
+    font-size: 26px;
+    color: #F76262;
+}
+#banner h1{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    width: 373px;
+}
+#banner .best_features .itemLast::before{
+    display: none;
+}
+/* banner part end */
 
 /* Product code start */
 
@@ -91,6 +211,10 @@ body {
 
 
 /* Banner 50% width(1) start */
+#banner_product{
+    margin-top: 80px;
+}
+
 #banner_product .newuserdiscount1 {
 
     background: url(../images/13.png)center no-repeat;
@@ -154,3 +278,97 @@ body {
     padding: 77px 35px;
 }
 /* Banner for 4*8 end */
+
+/* Banner 50% width(2) start */
+#banner_product .newuserdiscount7 {
+
+    background: url(../images/24.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#banner_product .newuserdiscount8 {
+
+    background: url(../images/25.png)center no-repeat;
+    background-size: cover;
+    padding: 77px 35px;
+}
+#navbar420 .navbar-brand{
+    font-family: 'Island Moments', cursive;
+    color: red;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+/* Banner 50% width(2) end */
+
+footer h5{
+    color: #222222;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+footer li {
+    margin-top: 12px;
+}
+footer li i{
+    color: #4A4A4A;
+    margin-right: 10px;
+}
+footer li p{
+    color:#4A4A4A;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyri{
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+#snake{
+    background: url(../images/Subtract.png)center no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 33px;
+    margin-right: 10px;
+}
+
+.searchbarfokinni{
+    width: 650px;
+    height: 50px;
+   
+}
+
+#snake .positon{
+    display: flex;
+    justify-content: center;
+    top:-50%;
+    transform: translateY(+50%);
+}
+#middleman h4{
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif; 
+    margin: 80px 0px 30px 0px;
+}
+
+.lololimg{
+    background: url(../images/Group\ 56.png)center no-repeat;
+    height: 75px;
+    margin: 80px 0px;
+}
